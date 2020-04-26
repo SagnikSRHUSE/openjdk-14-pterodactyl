@@ -19,7 +19,7 @@ RUN apt-get update \
 ENV JAVA_VERSION jdk-11.0.6+10 
 
 # Config env vars
-ENV ESUM '7ed04ed9ed7271528e7f03490f1fd7dfbbc2d391414bd6fe4dd80ec3bad76d30'
+ENV ESUM '106b72d565be98834ead5fea9555bd646d488a86fc4ae4dd294a38e97bf77509'
 ENV BINARY_URL 'https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14%2B36.1_openj9-0.19.0/OpenJDK14U-jdk_x64_linux_openj9_14_36_openj9-0.19.0.tar.gz'
 
 RUN curl -LfsSo /tmp/openjdk.tar.gz ${BINARY_URL}; \
